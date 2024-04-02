@@ -1,0 +1,16 @@
+package com.example.demo.entity;
+
+import org.springframework.data.jpa.repository.query.EqlParser.Date_time_timestamp_literalContext;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class Counsellor {
+	
+	private Long CId;
+	private String name;
+	private Long phno;
+	private String pswd;
+	private Date_time_timestamp_literalContext creationDate;
+
+}

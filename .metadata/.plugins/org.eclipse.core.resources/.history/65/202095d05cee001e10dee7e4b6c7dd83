@@ -1,0 +1,11 @@
+package com.example.demo.serviceInterface;
+
+import com.example.demo.entity.Enquiry;
+
+public interface EnquiryInterface {
+	
+	public Boolean saveEnquiry(Enquiry e);
+	
+	public List<Enquiry> getEnqui
+
+}

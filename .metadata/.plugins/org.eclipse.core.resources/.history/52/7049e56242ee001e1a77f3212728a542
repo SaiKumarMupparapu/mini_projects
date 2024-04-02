@@ -1,0 +1,13 @@
+package com.example.demo.entity;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class Enquiry {
+
+	private Long eId;
+	private String name;
+	private
+	private
+	private
+}

@@ -1,0 +1,11 @@
+package com.example.demo.dto;
+
+public class Dashboard {
+	
+	private Long totalEnq;
+	private Long openEnquiry;
+	private Long lostEnq;
+	private Long enrolledEnq;
+	
+
+}

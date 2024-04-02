@@ -1,0 +1,8 @@
+package com.example.demo.serviceInterface;
+
+public interface Counsellor {
+	
+	public Boolean registerCounsellor(Counsellor c);
+	
+
+}

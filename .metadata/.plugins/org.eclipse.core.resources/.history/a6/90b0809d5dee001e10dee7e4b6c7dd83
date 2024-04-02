@@ -1,0 +1,13 @@
+package com.example.demo.serviceInterface;
+
+import java.util.List;
+
+import com.example.demo.entity.Enquiry;
+
+public interface EnquiryInterface {
+	
+	public Boolean saveEnquiry(Enquiry e);
+	
+	public List<Enquiry> getEnquiries(Enquiry enq,Long counsellorId);
+
+}

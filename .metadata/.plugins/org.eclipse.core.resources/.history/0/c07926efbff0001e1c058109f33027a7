@@ -1,0 +1,34 @@
+package com.example.demo.serviceImpl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.demo.entity.Counsellor;
+import com.example.demo.repo.CounselloerRepo;
+import com.example.demo.serviceInterface.CounsellorInterface;
+
+@Service
+public class CounsellorImpl implements CounsellorInterface{
+	@Autowired
+	private CounselloerRepo cr;
+
+	@Override
+	public Boolean saveCounsellor(Counsellor c) {
+		if(byEmail==null) {
+			Counsellor save = cr.save(c);
+			return save.getCId()!=null;
+		}else {
+		return false;	
+		}
+	}
+
+	@Override
+	public Counsellor loginValidate(String email, String pswd) {
+		Counsellor byEmailAndPswd = cr.findByEmailAndPswd(email, pswd);
+		return byEmailAndPswd;
+	}
+
+
+	
+
+}

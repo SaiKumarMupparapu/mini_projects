@@ -1,0 +1,7 @@
+package com.example.demo.serviceInterface;
+
+public interface Enquiry {
+
+	Boolean saveEnquiry(Enquiry e,Long CId);
+	List<Enquiry>
+}

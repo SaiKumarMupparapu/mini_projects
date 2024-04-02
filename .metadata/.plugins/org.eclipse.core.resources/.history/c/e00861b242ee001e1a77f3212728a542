@@ -1,0 +1,22 @@
+package com.example.demo.entity;
+
+import java.time.LocalDate;
+
+import jakarta.persistence.Entity;
+
+/**
+ * 
+ */
+@Entity
+public class Enquiry {
+
+	private Long eId;
+	private String name;
+	private String classMode;
+	private String course;
+	private String status;
+	private LocalDate createddate;
+	private LocalDate updateddate;
+	
+	
+}

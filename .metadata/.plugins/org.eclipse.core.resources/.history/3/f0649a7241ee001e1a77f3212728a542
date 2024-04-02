@@ -1,0 +1,15 @@
+package com.example.demo.entity;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class Counsellor {
+	
+	private Long CId;
+	private String name;
+	private
+	private
+	private
+	private
+
+}

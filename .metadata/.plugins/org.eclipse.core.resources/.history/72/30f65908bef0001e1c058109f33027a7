@@ -1,0 +1,6 @@
+package com.example.demo.serviceInterface;
+
+public interface Enquiry {
+
+	Boolean saveEnquiry(Enquiry e,);
+}

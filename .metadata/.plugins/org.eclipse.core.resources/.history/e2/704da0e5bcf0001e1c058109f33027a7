@@ -1,0 +1,15 @@
+package com.example.demo.dto;
+
+public class Dashboard {
+
+	private Long totalEnq;
+	
+	//open means new records
+	private Long openEnquiry;
+	
+	private Long lostEnq;
+	
+	private Long enrolledEnq;
+	
+	
+}

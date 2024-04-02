@@ -1,0 +1,10 @@
+package com.example.demo.serviceInterface;
+
+import java.util.List;
+
+public interface Enquiry {
+
+	Boolean saveEnquiry(Enquiry e,Long cId);
+	List<Enquiry> getEnquries(Enquiry e,Long cId);
+	Enquiry getEnquiryById(Long eId)
+}

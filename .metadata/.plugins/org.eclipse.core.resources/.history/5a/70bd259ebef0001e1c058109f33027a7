@@ -1,0 +1,13 @@
+package com.example.demo.serviceInterface;
+
+import java.util.List;
+
+import com.example.demo.dto.Dashboard;
+
+public interface Enquiry {
+
+	Dashboard getBoardInfo(Dashboard d);
+	Boolean saveEnquiry(Enquiry e,Long cId);
+	List<Enquiry> getEnquries(Enquiry e,Long cId);
+	Enquiry getEnquiryById(Long eId);
+}
