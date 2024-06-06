@@ -1,8 +1,0 @@
-package com.example.demo.serviceInterface;
-
-public interface Counsellor {
-	
-	public Boolean registerCounsellor(CounsellorInterface c);
-	public Boolean validateLogin(String email,String pswd);
-
-}

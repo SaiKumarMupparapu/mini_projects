@@ -1,7 +1,0 @@
-import jakarta.persistence.Entity;
-
-@Entity com.example.demo.entity;
-
-public class Counsellor {
-
-}
